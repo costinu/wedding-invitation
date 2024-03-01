@@ -85,5 +85,5 @@ services:
     mail:
         image: axllent/mailpit:latest
         ports:
-        - 8025:8025
-        - 1025:1025
+        - 8026:8025
+        - 1026:1025
