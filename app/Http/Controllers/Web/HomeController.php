@@ -9,6 +9,7 @@ class HomeController extends Controller
 {
     public function __invoke(Request $request)
     {
-        return redirect()->route('login');
+        //return redirect()->route('login');
+        return view('home');
     }
 }
